@@ -1,0 +1,33 @@
+{
+  "name": "HTMLImports",
+  "homepage": "https://github.com/Polymer/HTMLImports",
+  "authors": [
+    "The Polymer Authors"
+  ],
+  "description": "Polyfill implementing the HTMLImports specification",
+  "main": "html-imports.js",
+  "keywords": [
+    "HTMLImports"
+  ],
+  "dependencies": {
+    "MutationObservers": "Polymer/MutationObservers#master",
+    "tools": "Polymer/tools#master"
+  },
+  "license": "BSD",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_cacheHeaders": {
+    "Content-Length": "67272",
+    "Content-Type": "application/zip",
+    "Content-Disposition": "attachment; filename=HTMLImports-master.zip"
+  },
+  "_source": "https://github.com/gartz/HTMLImports/archive/master.zip",
+  "_target": "*",
+  "_originalSource": "https://github.com/gartz/HTMLImports/archive/master.zip"
+}
