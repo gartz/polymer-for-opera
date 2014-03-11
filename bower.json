@@ -1,0 +1,32 @@
+{
+  "name": "polymer-for-opera",
+  "version": "0.1.0",
+  "authors": [
+    "Gabriel R. Giannattasio <gartz@l6.com.br>"
+  ],
+  "description": "This is a demo of the Polymer Project modified to work with Opera browser",
+  "main": "index.html",
+  "keywords": [
+    "polymer",
+    "shim",
+    "opera"
+  ],
+  "license": "MIT",
+  "homepage": "http://gartz.github.io/polymer-for-opera",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "CustomElements": "https://github.com/gartz/CustomElements/archive/master.zip",
+    "HTMLImports": "https://github.com/gartz/HTMLImports/archive/master.zip",
+    "ShadowDOM": "https://github.com/gartz/ShadowDOM/archive/master.zip",
+    "TemplateBinding": "https://github.com/gartz/TemplateBinding/archive/master.zip",
+    "platform-dev": "https://github.com/Polymer/platform-dev/archive/master.zip",
+    "polymer-dev": "https://github.com/Polymer/polymer-dev/archive/master.zip",
+    "polymer": "~0.2"
+  }
+}

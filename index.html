@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>&lt;opera-demo&gt;</title>
+
+    <!-- Importing Opera Polyfill files to platform -->
+    <script src="shim/DOMImplementation.js"></script>
+    <script src="shim/matchesSelector.js"></script>
+    <script src="shim/requestAnimationFrame.js"></script>
+    <!-- Importing Web Component's Polyfill (using dev repo) -->
+    <script src="bower_components/platform-dev/platform.js"></script>
+
+    <!-- Importing Custom Elements -->
+    <link rel="import" href="opera/demo.html">
+</head>
+<body>
+
+    <!-- Using Custom Elements -->
+    <opera-demo></opera-demo>
+
+</body>
+</html>
