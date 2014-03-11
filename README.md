@@ -8,8 +8,8 @@ This is a demo of the Polymer Project modified to work with Opera browser
 Isn't for production porpouses, I hope to inspire Polymer-Project developers from this changes
 to add support for Opera browser versions earlier then blink migration.
 
-**[DEMO](http://gartz.github.io/polymer-for-opera/)** (if you don't see Hello `browser name`,
-something goes wrong)
+[![DEMO](http://gartz.github.io/polymer-for-opera/screenshot.png)](http://gartz.github.io/polymer-for-opera/)
+(if you don't see Hello `browser name`, something goes wrong)
 
 How it works
 ------------
