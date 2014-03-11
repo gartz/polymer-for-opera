@@ -406,7 +406,7 @@
     removeChild: function(childWrapper) {
       var found = false;
       var childNodes = this.childNodes;
-      var isOpera = !!window.opera;
+      var isOpera = /Opera/.test(navigator.userAgent);
       //FIXME: Opera don't use polyfills in nodes auto-created in a new Document
       // This is a workaround for template elements that use DOcumentFragment inside
       if(!isOpera)
